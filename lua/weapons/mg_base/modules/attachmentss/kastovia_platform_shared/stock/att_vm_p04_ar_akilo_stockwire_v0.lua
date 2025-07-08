@@ -1,0 +1,13 @@
+ATTACHMENT.Base = "att_stock"
+ATTACHMENT.Model = Model("models/zeron/att_vm_p04_ar_akilo_stockwire_v0.mdl")
+ATTACHMENT.Name = "Prolite TL3 Stock"
+ATTACHMENT.Icon = Material("zeron/weapons/vepr/icons/icon_attachment_p04_ar_akilo_stockwire_v0.vmt")
+ATTACHMENT.ExcludedByAttachments = {"vm_jup_cp04_lm_rkilo_drum_amp"}
+local BaseClass = GetAttachmentBaseClass(ATTACHMENT.Base)
+function ATTACHMENT:Stats(weapon)
+    BaseClass.Stats(self, weapon)
+    weapon.Animations.Ads_In.Fps = weapon.Animations.Ads_In.Fps * 1.25
+    weapon.Animations.Ads_Out.Fps = weapon.Animations.Ads_Out.Fps * 1.25
+    weapon.Recoil.Horizontal[1] = weapon.Recoil.Horizontal[1] * 1.2
+    weapon.Recoil.Horizontal[2] = weapon.Recoil.Horizontal[2] * 1.2
+end

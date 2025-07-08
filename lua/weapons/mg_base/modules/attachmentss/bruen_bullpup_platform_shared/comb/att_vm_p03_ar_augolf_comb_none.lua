@@ -1,0 +1,8 @@
+ATTACHMENT.Base = "att_base"
+ATTACHMENT.Name = "combnone"
+ATTACHMENT.Category = "Combs"
+
+local BaseClass = GetAttachmentBaseClass(ATTACHMENT.Base)
+function ATTACHMENT:Stats(weapon)
+    BaseClass.Stats(self, weapon)
+end

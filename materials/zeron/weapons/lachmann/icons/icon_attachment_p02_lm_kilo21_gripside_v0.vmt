@@ -1,0 +1,8 @@
+"UnlitGeneric"
+{
+    "$basetexture" "zeron/weapons/lachmann/icons/icon_attachment_p02_lm_kilo21_gripside_v0"
+    "$nolod" 1
+    "$vertexalpha" 1
+    "$vertexcolor" 1
+    "$translucent" "1"
+}

@@ -1,0 +1,23 @@
+ATTACHMENT.Base = "att_barrel"
+ATTACHMENT.Name = "FTAC Hornet 20'' Barrel"
+ATTACHMENT.Model = Model("models/zeron/att_vm_p03_lm_ahotel_barhvy_v0.mdl")
+ATTACHMENT.Icon = Material("zeron/weapons/auggers/icons/icon_attachment_p03_lm_ahotel_barhvy_v0.vmt")
+ATTACHMENT.ExcludedAttachments = {"att_vm_p03_lm_ahotel_bipod_v0"}
+ATTACHMENT.AttachmentBodygroups = {
+	["tag_slinghide"] = 1
+}
+
+ATTACHMENT.Bodygroups = {
+    ["tag_slinghide"] = 1
+}
+local BaseClass = GetAttachmentBaseClass(ATTACHMENT.Base)
+function ATTACHMENT:Stats(weapon)
+    BaseClass.Stats(self, weapon)
+    weapon.Cone.Hip =  weapon.Cone.Hip * 0.9
+    weapon.Animations.Ads_In.Fps = weapon.Animations.Ads_In.Fps * 0.91
+    weapon.Animations.Ads_Out.Fps = weapon.Animations.Ads_Out.Fps * 0.91
+    weapon.Bullet.EffectiveRange =  weapon.Bullet.EffectiveRange * 1.13
+    weapon.Bullet.DropOffStartRange =  weapon.Bullet.DropOffStartRange * 1.13
+    weapon.Animations.Draw.Fps = weapon.Animations.Draw.Fps * 0.9
+    weapon.Animations.Holster.Fps = weapon.Animations.Holster.Fps * 0.9
+end

@@ -1,0 +1,7 @@
+"UnlitGeneric"
+{
+    "$basetexture" "easy/mw/attachments/icons/shared/icon_perk_strong_arm_patch"
+    "$translucent" "1"
+    "$vertexalpha" "1"
+    "$vertexcolor" "1"
+}

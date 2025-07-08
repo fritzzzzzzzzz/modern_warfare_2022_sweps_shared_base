@@ -1,0 +1,5 @@
+"UnlitGeneric"
+{
+    "$basetexture" "zeron\weapons\lachmann\ns"
+    //"$color2" "[.35 .35 .35]"                                    
+}

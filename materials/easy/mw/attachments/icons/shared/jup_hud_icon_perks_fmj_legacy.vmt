@@ -1,0 +1,7 @@
+"UnlitGeneric"
+{
+    "$basetexture" "easy/mw/attachments/icons/shared/jup_hud_icon_perks_fmj_legacy"
+    "$translucent" "1"
+    "$vertexalpha" "1"
+    "$vertexcolor" "1"
+}

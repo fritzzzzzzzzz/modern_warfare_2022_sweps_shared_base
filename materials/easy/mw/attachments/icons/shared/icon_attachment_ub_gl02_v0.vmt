@@ -1,0 +1,8 @@
+"UnlitGeneric"
+{
+	"$basetexture" "easy/mw/attachments/icons/shared/icon_attachment_ub_gl02_v0"
+	"$nolod" 1
+	"$vertexalpha" 1
+	"$vertexcolor" 1
+	"$translucent" "1"
+}

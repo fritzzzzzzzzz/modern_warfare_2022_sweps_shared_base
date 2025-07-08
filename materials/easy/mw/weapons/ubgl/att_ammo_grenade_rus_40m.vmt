@@ -1,0 +1,42 @@
+"VertexLitGeneric"
+{
+    "$basetexture" "easy\mw\weapons\ubgl\att_ammo_grenade_rus_40m_rgb"
+    "$bumpmap" "easy\mw\weapons\ubgl\att_ammo_grenade_rus_40m_n"
+    "$phongexponenttexture" "easy\mw\weapons\ubgl\att_ammo_grenade_rus_40m_e"
+
+    /////////////////
+    "$color2" "[0 0 0]"                                     //do not touch this
+    "$blendtintbybasealpha" "1"                             //do not touch this
+    /////////////////
+
+    "$phong" "1"
+    "$phongboost" "1"
+    "$phongalbedotint" "1"
+    "$phongalbedoboost" "10"                                //toy around with this
+    "$phongfresnelranges" "[1 0.1 0]"
+
+    //rimlight doesn't properly show in hlmv, make sure you're changing these values in game
+    "$rimlight" "1"
+    "$rimlightexponent" "100"
+    "$rimmask" "1"
+    "$rimlightboost" "1"
+       
+    /////////////////
+    "$normalmapalphaenvmapmask" "1"                         //do not touch this
+    /////////////////
+
+    "$envmap" "easy\mw\weapons\ubgl\specularity_00"
+    "$envmaptint" "[0.298 0.29 0.267]"                 
+
+    //remove this if not using MWB
+    "Proxies"
+    {
+        "MwEnvMapTint"
+        {
+            "min" "0"
+            "max" "1"
+            "envmap" "easy\mw\weapons\ubgl\specularity_00"
+            "color" "[0.298 0.29 0.267]"
+        }
+    }
+}

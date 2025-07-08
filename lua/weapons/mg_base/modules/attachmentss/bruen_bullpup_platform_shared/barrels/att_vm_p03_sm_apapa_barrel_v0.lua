@@ -1,0 +1,12 @@
+ATTACHMENT.Base = "att_barrel"
+ATTACHMENT.Name = "Bruen Factory Carbine Barrel"
+ATTACHMENT.Model = Model("models/zeron/att_vm_p03_sm_apapa_barrel_v0.mdl")
+ATTACHMENT.Icon = Material("zeron/weapons/auggers/icons/icon_attachment_p03_sm_apapa_barrel_v0.vmt")
+ATTACHMENT.ExcludedAttachments = {"att_vm_p03_lm_ahotel_bipod_v0"}
+local BaseClass = GetAttachmentBaseClass(ATTACHMENT.Base)
+function ATTACHMENT:Stats(weapon)
+    BaseClass.Stats(self, weapon)
+    weapon.Animations.Ads_In.Fps = weapon.Animations.Ads_In.Fps * 1.12
+    weapon.Animations.Ads_Out.Fps = weapon.Animations.Ads_Out.Fps * 1.12
+    weapon.Bullet.EffectiveRange = weapon.Bullet.EffectiveRange * 0.70
+end

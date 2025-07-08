@@ -1,0 +1,13 @@
+ATTACHMENT.Base = "att_stock"
+ATTACHMENT.Name = "Lachmann S76 Factory Stock"
+ATTACHMENT.Model = Model("models/zeron/att_vm_p02_ar_golf3_stock_v0.mdl")
+ATTACHMENT.Icon = Material("zeron/weapons/lachmann/icons/icon_attachment_p02_ar_golf3_stock_v0.vmt")
+
+local BaseClass = GetAttachmentBaseClass(ATTACHMENT.Base)
+function ATTACHMENT:Stats(weapon)
+    BaseClass.Stats(self, weapon)
+    weapon.Recoil.Vertical[1] = weapon.Recoil.Vertical[1] * 1.02
+    weapon.Recoil.Vertical[2] = weapon.Recoil.Vertical[2] * 1.02
+    weapon.Recoil.Horizontal[1] = weapon.Recoil.Horizontal[1] * 0.97
+    weapon.Recoil.Horizontal[2] = weapon.Recoil.Horizontal[2] * 0.97
+end

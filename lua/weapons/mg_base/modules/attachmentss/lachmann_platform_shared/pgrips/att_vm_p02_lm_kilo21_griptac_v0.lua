@@ -1,0 +1,18 @@
+ATTACHMENT.Base = "att_pistolgrip"
+ATTACHMENT.Name = "LMK64 Grip"
+ATTACHMENT.Model = Model("models/zeron/att_vm_p02_lm_kilo21_griptac_v0.mdl")
+ATTACHMENT.Icon = Material("zeron/weapons/lachmann/icons/icon_attachment_p02_sm_mpapa5_pstlgrp_v0.vmt")
+
+local BaseClass = GetAttachmentBaseClass(ATTACHMENT.Base)
+function ATTACHMENT:Stats(weapon)
+    BaseClass.Stats(self, weapon)
+    weapon.Animations.Ads_In.Fps = weapon.Animations.Ads_In.Fps * 0.9
+    weapon.Animations.Ads_Out.Fps = weapon.Animations.Ads_Out.Fps * 0.9
+    weapon.Recoil.Vertical[1] = weapon.Recoil.Vertical[1] * 0.9
+    weapon.Recoil.Vertical[2] = weapon.Recoil.Vertical[2] * 0.9
+end
+
+function ATTACHMENT:PostProcess(weapon)
+    BaseClass.PostProcess(self, weapon)
+
+end

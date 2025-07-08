@@ -1,0 +1,8 @@
+"UnlitGeneric"
+{
+    "$basetexture" "zeron/weapons/auggers/icons/icon_attachment_p03_lm_ahotel_stock_v0"
+    "$nolod" 1
+    "$vertexalpha" 1
+    "$vertexcolor" 1
+    "$translucent" "1"
+}
