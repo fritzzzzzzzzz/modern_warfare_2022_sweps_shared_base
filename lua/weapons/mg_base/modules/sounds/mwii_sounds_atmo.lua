@@ -96,7 +96,7 @@ sound.Add({
 sound.Add({
 	name = "weap_pistol_fire_plr_atmo_ext5",
     channel = CHAN_ATMO,
-    level = 40,
+    level = 45,
     pitch = {80,110},
     volume =     1,
 	sound = {
