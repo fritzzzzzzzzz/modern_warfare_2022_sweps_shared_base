@@ -1,0 +1,9 @@
+"UnlitGeneric"
+
+{
+	"$basetexture"	"zeron/reticles/reticle_dot"
+	"$color" "[1 .225 .225]"
+	//"$alphatest"	"1"
+	"$translucent" "1"
+	//"$ignorez" "1"
+}

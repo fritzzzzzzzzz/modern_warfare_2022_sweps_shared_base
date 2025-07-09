@@ -1,0 +1,10 @@
+"UnlitGeneric"
+
+{
+	"$basetexture"	"zeron/reticles/reticle_xhair"
+	"$color" "[1 .0 .0]"
+	//"$alphatest"	"1"
+	"$translucent" "1"
+	"$alphatestreference" "1"
+	//"$ignorez" "1"
+}
