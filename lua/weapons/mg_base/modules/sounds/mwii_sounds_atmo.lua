@@ -4,9 +4,9 @@
 sound.Add({
 	name = "weap_pistol_fire_plr_atmo_ext4",
 	channel = CHAN_ATMO,
-	level = 140,
-	volume = 10,
-	pitch = {100,100},
+    level = 140,
+    pitch = {80,110},
+    volume =     1,
 	sound = {
 		"zeron/mwii/weap_pistol_fire_plr_atmo_ext4_01.wav",
 		"zeron/mwii/weap_pistol_fire_plr_atmo_ext4_02.wav",
@@ -16,50 +16,54 @@ sound.Add({
 		"zeron/mwii/weap_pistol_fire_plr_atmo_ext4_06.wav",
 		}
 })
+
 sound.Add({
-	name = "weap_pistol_fire_plr_atmo_int2_iw9",
-	channel = CHAN_ATMO,
-	level = 140,
-	volume = 10,
-	pitch = {100,100},
+	name = "weap_pistol_fire_plr_atmo_ext5",
+    channel = CHAN_ATMO,
+    level = 140,
+    pitch = {80,110},
+    volume =     0.5,
 	sound = {
-		"zeron/mwii/weap_pistol_fire_plr_atmo_int2_iw9_01.wav",
-		"zeron/mwii/weap_pistol_fire_plr_atmo_int2_iw9_02.wav",
-		"zeron/mwii/weap_pistol_fire_plr_atmo_int2_iw9_03.wav",
-		"zeron/mwii/weap_pistol_fire_plr_atmo_int2_iw9_04.wav",
-		"zeron/mwii/weap_pistol_fire_plr_atmo_int2_iw9_05.wav",
-		"zeron/mwii/weap_pistol_fire_plr_atmo_int2_iw9_06.wav",
-		}
-})
-sound.Add({
-	name = "weap_pistol_sup_fire_plr_atmo_int1",
-	channel = CHAN_ATMO,
-	level = 140,
-	volume = 10,
-	pitch = {100,100},
-	sound = {
-		"zeron/mwii/weap_pistol_sup_fire_plr_atmo_int1_01.wav",
-		"zeron/mwii/weap_pistol_sup_fire_plr_atmo_int1_02.wav",
-		"zeron/mwii/weap_pistol_sup_fire_plr_atmo_int1_03.wav",
-		"zeron/mwii/weap_pistol_sup_fire_plr_atmo_int1_04.wav",
-		"zeron/mwii/weap_pistol_sup_fire_plr_atmo_int1_05.wav",
-		"zeron/mwii/weap_pistol_sup_fire_plr_atmo_int1_06.wav",
+		"fritz/atmo/ext/pistol/weap_pistol_fire_plr_atmo_ext5_01.ogg",
+		"fritz/atmo/ext/pistol/weap_pistol_fire_plr_atmo_ext5_02.ogg",
+		"fritz/atmo/ext/pistol/weap_pistol_fire_plr_atmo_ext5_03.ogg",
+		"fritz/atmo/ext/pistol/weap_pistol_fire_plr_atmo_ext5_04.ogg",
+		"fritz/atmo/ext/pistol/weap_pistol_fire_plr_atmo_ext5_05.ogg",
+		"fritz/atmo/ext/pistol/weap_pistol_fire_plr_atmo_ext5_06.ogg",
 		}
 })
 
 sound.Add({
-	name = "weap_smg_sup_fire_plr_atmo_ext2",
+	name = "weap_pistol_fire_plr_atmo_int1",
 	channel = CHAN_ATMO,
-	level = 140,
-	volume = 10,
-	pitch = {100,100},
+    level = 140,
+    pitch = {80,110},
+    volume =      0.5,
 	sound = {
-		"zeron/mwii/weap_smg_sup_fire_plr_atmo_ext2_01.wav",
-		"zeron/mwii/weap_smg_sup_fire_plr_atmo_ext2_02.wav",
-		"zeron/mwii/weap_smg_sup_fire_plr_atmo_ext2_03.wav",
-		"zeron/mwii/weap_smg_sup_fire_plr_atmo_ext2_04.wav",
-		"zeron/mwii/weap_smg_sup_fire_plr_atmo_ext2_05.wav",
-		"zeron/mwii/weap_smg_sup_fire_plr_atmo_ext2_06.wav",
+		"zeron/mwii/weap_pistol_fire_plr_atmo_int1_01.wav",
+		"zeron/mwii/weap_pistol_fire_plr_atmo_int1_02.wav",
+		"zeron/mwii/weap_pistol_fire_plr_atmo_int1_03.wav",
+		"zeron/mwii/weap_pistol_fire_plr_atmo_int1_04.wav",
+		"zeron/mwii/weap_pistol_fire_plr_atmo_int1_05.wav",
+		"zeron/mwii/weap_pistol_fire_plr_atmo_int1_06.wav",
+		}
+})
+
+sound.Add({
+	name = "weap_pistol_fire_plr_atmo_int2", "weap_pistol_fire_plr_atmo_int2_iw9",
+    channel = CHAN_ATMO,
+    level = 140,
+    pitch = {80,110},
+    volume =      0.5,
+	sound = {
+		"fritz/atmo/int/pistol/weap_pistol_fire_plr_atmo_int2_iw9_01.ogg",
+		"fritz/atmo/int/pistol/weap_pistol_fire_plr_atmo_int2_iw9_02.ogg",
+		"fritz/atmo/int/pistol/weap_pistol_fire_plr_atmo_int2_iw9_03.ogg",
+		"fritz/atmo/int/pistol/weap_pistol_fire_plr_atmo_int2_iw9_04.ogg",
+		"fritz/atmo/int/pistol/weap_pistol_fire_plr_atmo_int2_iw9_05.ogg",
+		"fritz/atmo/int/pistol/weap_pistol_fire_plr_atmo_int2_iw9_06.ogg",
+		"fritz/atmo/int/pistol/weap_pistol_fire_plr_atmo_int2_iw9_07.ogg",
+		"fritz/atmo/int/pistol/weap_pistol_fire_plr_atmo_int2_iw9_08.ogg",
 		}
 })
 
@@ -79,51 +83,18 @@ sound.Add({
 })
 
 sound.Add({
-	name = "weap_pistol_fire_plr_atmo_int1",
+	name = "weap_pistol_sup_fire_plr_atmo_int1",
 	channel = CHAN_ATMO,
-	volume = 1,
-	pitch = {100,100},
-	sound = {
-		"zeron/mwii/weap_pistol_fire_plr_atmo_int1_01.wav",
-		"zeron/mwii/weap_pistol_fire_plr_atmo_int1_02.wav",
-		"zeron/mwii/weap_pistol_fire_plr_atmo_int1_03.wav",
-		"zeron/mwii/weap_pistol_fire_plr_atmo_int1_04.wav",
-		"zeron/mwii/weap_pistol_fire_plr_atmo_int1_05.wav",
-		"zeron/mwii/weap_pistol_fire_plr_atmo_int1_06.wav",
-		}
-})
-
-sound.Add({
-	name = "weap_pistol_fire_plr_atmo_ext5",
-    channel = CHAN_ATMO,
-    level = 45,
-    pitch = {80,110},
-    volume =     1,
-	sound = {
-		"fritz/atmo/ext/pistol/weap_pistol_fire_plr_atmo_ext5_01.ogg",
-		"fritz/atmo/ext/pistol/weap_pistol_fire_plr_atmo_ext5_02.ogg",
-		"fritz/atmo/ext/pistol/weap_pistol_fire_plr_atmo_ext5_03.ogg",
-		"fritz/atmo/ext/pistol/weap_pistol_fire_plr_atmo_ext5_04.ogg",
-		"fritz/atmo/ext/pistol/weap_pistol_fire_plr_atmo_ext5_05.ogg",
-		"fritz/atmo/ext/pistol/weap_pistol_fire_plr_atmo_ext5_06.ogg",
-		}
-})
-
-sound.Add({
-	name = "weap_pistol_fire_plr_atmo_int2",
-    channel = CHAN_ATMO,
     level = 140,
     pitch = {80,110},
-    volume =     1,
+    volume =      0.5,
 	sound = {
-		"fritz/atmo/int/pistol/weap_pistol_fire_plr_atmo_int2_iw9_01.ogg",
-		"fritz/atmo/int/pistol/weap_pistol_fire_plr_atmo_int2_iw9_02.ogg",
-		"fritz/atmo/int/pistol/weap_pistol_fire_plr_atmo_int2_iw9_03.ogg",
-		"fritz/atmo/int/pistol/weap_pistol_fire_plr_atmo_int2_iw9_04.ogg",
-		"fritz/atmo/int/pistol/weap_pistol_fire_plr_atmo_int2_iw9_05.ogg",
-		"fritz/atmo/int/pistol/weap_pistol_fire_plr_atmo_int2_iw9_06.ogg",
-		"fritz/atmo/int/pistol/weap_pistol_fire_plr_atmo_int2_iw9_07.ogg",
-		"fritz/atmo/int/pistol/weap_pistol_fire_plr_atmo_int2_iw9_08.ogg",
+		"zeron/mwii/weap_pistol_sup_fire_plr_atmo_int1_01.wav",
+		"zeron/mwii/weap_pistol_sup_fire_plr_atmo_int1_02.wav",
+		"zeron/mwii/weap_pistol_sup_fire_plr_atmo_int1_03.wav",
+		"zeron/mwii/weap_pistol_sup_fire_plr_atmo_int1_04.wav",
+		"zeron/mwii/weap_pistol_sup_fire_plr_atmo_int1_05.wav",
+		"zeron/mwii/weap_pistol_sup_fire_plr_atmo_int1_06.wav",
 		}
 })
 
@@ -142,6 +113,22 @@ sound.Add({
 		"fritz/atmo/ext/smg_sup/weap_smg_sup_fire_plr_atmo_ext3_04.wav",
 		"fritz/atmo/ext/smg_sup/weap_smg_sup_fire_plr_atmo_ext3_05.wav",
 		"fritz/atmo/ext/smg_sup/weap_smg_sup_fire_plr_atmo_ext3_06.wav",
+		}
+})
+
+sound.Add({
+	name = "weap_smg_sup_fire_plr_atmo_ext2",
+	channel = CHAN_ATMO,
+    level = 140,
+    pitch = {80,110},
+    volume =      0.5,
+	sound = {
+		"zeron/mwii/weap_smg_sup_fire_plr_atmo_ext2_01.wav",
+		"zeron/mwii/weap_smg_sup_fire_plr_atmo_ext2_02.wav",
+		"zeron/mwii/weap_smg_sup_fire_plr_atmo_ext2_03.wav",
+		"zeron/mwii/weap_smg_sup_fire_plr_atmo_ext2_04.wav",
+		"zeron/mwii/weap_smg_sup_fire_plr_atmo_ext2_05.wav",
+		"zeron/mwii/weap_smg_sup_fire_plr_atmo_ext2_06.wav",
 		}
 })
 
