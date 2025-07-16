@@ -23,5 +23,5 @@ function ATTACHMENT:Stats(weapon)
     weapon.Animations.Draw.Fps = weapon.Animations.Draw.Fps * 0.98
     weapon.Bullet.EffectiveRange = weapon.Bullet.EffectiveRange * 1.04
     weapon.Bullet.DropOffStartRange = weapon.Bullet.DropOffStartRange * 1.04
-    weapon:doThunderStats()
+    weapon:doSuppressorStats()
 end 
