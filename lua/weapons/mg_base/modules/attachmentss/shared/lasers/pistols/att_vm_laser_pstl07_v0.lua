@@ -1,7 +1,7 @@
 ATTACHMENT.Base = "att_laser"
 ATTACHMENT.Name = "FJX Diod-70"
 ATTACHMENT.Model = Model("models/zeron/att_vm_laser_pstl07_v0.mdl")
-ATTACHMENT.Icon = Material("viper/mw/attachments/icons/laser/icon_attachment_laser02.vmt")
+ATTACHMENT.Icon = Material("pwci/mw/attachments/icons/shared/icon_attachment_laser_pstl07_v0.vmt")
 ATTACHMENT.Laser = {
     BeamMaterial = Material("mw19_laserbeam.vmt"),
     DotMaterial = Material("sprites/light_glow02_add.vmt"),

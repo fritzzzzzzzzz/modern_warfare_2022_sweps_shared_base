@@ -1,7 +1,7 @@
 ATTACHMENT.Base = "att_sight_1x"
 ATTACHMENT.Name = "Slimline Pro"
 ATTACHMENT.Model = Model("models/zeron/att_vm_minireddot01_pstl_v0.mdl")
-ATTACHMENT.Icon = Material("viper/mw/attachments/icons/reticles/icon_attachment_minireddot.vmt")
+ATTACHMENT.Icon = Material("pwci/mw/attachments/icons/shared/icon_attachment_minireddot01_v0.vmt")
 ATTACHMENT.BonemergeToCategory = {"Barrels"}
 ATTACHMENT.Reticle = {
     Material = Material("zeron/reticles/reticle_dot_red.vmt"),

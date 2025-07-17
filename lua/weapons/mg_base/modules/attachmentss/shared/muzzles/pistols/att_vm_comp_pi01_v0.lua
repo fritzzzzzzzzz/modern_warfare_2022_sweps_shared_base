@@ -1,7 +1,7 @@
 ATTACHMENT.Base = "att_muzzle"
 ATTACHMENT.Name = "DZS Open Comp"
 ATTACHMENT.Model = Model("models/zeron/att_vm_comp_pi01_v0.mdl")
-ATTACHMENT.Icon = Material("viper/mw/attachments/icons/muzzle/icon_attachment_muzzlebrake01.vmt")
+ATTACHMENT.Icon = Material("pwci/mw/attachments/icons/shared/icon_attachment_comp_pi01_v0.vmt")
 ATTACHMENT.BonemergeToCategory = {"Barrels"}
 ATTACHMENT.AttachmentBodygroups = {
     ["tag_tip"] = 1,

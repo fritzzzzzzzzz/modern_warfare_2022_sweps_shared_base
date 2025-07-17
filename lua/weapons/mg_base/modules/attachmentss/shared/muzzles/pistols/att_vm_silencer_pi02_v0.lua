@@ -1,7 +1,7 @@
 ATTACHMENT.Base = "att_muzzle"
 ATTACHMENT.Name = "Forge DX90-F"
 ATTACHMENT.Model = Model("models/zeron/att_vm_silencer_pi02_v0.mdl")
-ATTACHMENT.Icon = Material("viper/mw/attachments/icons/muzzle/icon_attachment_silencer03.vmt")
+ATTACHMENT.Icon = Material("pwci/mw/attachments/icons/shared/icon_attachment_silencer_pi02_v0.vmt")
 ATTACHMENT.BonemergeToCategory = {"Barrels"}
 ATTACHMENT.AttachmentBodygroups = {
     ["tag_tip"] = 1,

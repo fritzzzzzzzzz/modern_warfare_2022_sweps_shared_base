@@ -1,0 +1,8 @@
+"UnlitGeneric"
+{
+    "$basetexture" "pwci/mw/attachments/icons/shared/iw9_icon_attachment_manufacturer_mack8_sm"
+    "$nolod" 1
+    "$vertexalpha" 1
+    "$vertexcolor" 1
+    "$translucent" "1"
+}

@@ -1,7 +1,7 @@
 ATTACHMENT.Base = "att_muzzle"
 ATTACHMENT.Name = "SA GF90 Flash Hider"
 ATTACHMENT.Model = Model("models/zeron/att_vm_flash_pi02_v0.mdl")
-ATTACHMENT.Icon = Material("viper/mw/attachments/icons/muzzle/icon_attachment_flashhider02.vmt")
+ATTACHMENT.Icon = Material("pwci/mw/attachments/icons/shared/icon_attachment_flash_pi02_v0.vmt")
 ATTACHMENT.BonemergeToCategory = {"Barrels"}
 ATTACHMENT.AttachmentBodygroups = {
     ["tag_tip"] = 1,

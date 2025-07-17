@@ -1,0 +1,8 @@
+"UnlitGeneric"
+{
+    "$basetexture" "pwci/mw/attachments/icons/shared/icon_attachment_p53_sn_india_scope_v0"
+    "$nolod" 1
+    "$vertexalpha" 1
+    "$vertexcolor" 1
+    "$translucent" "1"
+}

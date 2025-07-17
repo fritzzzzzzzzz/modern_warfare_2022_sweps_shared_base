@@ -1,7 +1,7 @@
 ATTACHMENT.Base = "att_sight_1x"
 ATTACHMENT.Name = "Cronen Mini Dot"
 ATTACHMENT.Model = Model("models/zeron/att_vm_minireddot03_pstl_v0.mdl")
-ATTACHMENT.Icon = Material("viper/mw/attachments/icons/reticles/icon_attachment_minireddot.vmt")
+ATTACHMENT.Icon = Material("pwci/mw/attachments/icons/shared/icon_attachment_minireddot03_v0.vmt")
 ATTACHMENT.BonemergeToCategory = {"Barrels"}
 ATTACHMENT.Reticle = {
     Material = Material("zeron/reticles/reticle_dot_green.vmt"),

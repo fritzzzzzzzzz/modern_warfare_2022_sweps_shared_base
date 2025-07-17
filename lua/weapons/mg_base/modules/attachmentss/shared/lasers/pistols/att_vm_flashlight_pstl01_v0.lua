@@ -1,7 +1,7 @@
 ATTACHMENT.Base = "att_laser"
 ATTACHMENT.Name = "DZM-1000 L"
 ATTACHMENT.Model = Model("models/zeron/att_vm_flashlight_pstl01_v0.mdl")
-ATTACHMENT.Icon = Material("viper/mw/attachments/icons/laser/icon_attachment_laser01.vmt")
+ATTACHMENT.Icon = Material("pwci/mw/attachments/icons/shared/icon_attachment_flashlight_pstl01_v0.vmt")
 ATTACHMENT.CustomText = "Flashlight Visible in ADS"
 --ATTACHMENT.BonemergeToCategory = {"Barrels"}
 ATTACHMENT.Laser = {
