@@ -2,6 +2,10 @@ ATTACHMENT.Base = "att_laser"
 ATTACHMENT.Name = "FTAC Vortex 200"
 ATTACHMENT.Model = Model("models/zeron/att_vm_flashlight_pstl02_v0.mdl")
 ATTACHMENT.Icon = Material("pwci/mw/attachments/icons/shared/icon_attachment_flashlight_pstl02_v0.vmt")
+ATTACHMENT.BonemergeToCategory = {"Barrels"}
+ATTACHMENT.AttachmentBodygroups ={
+    ["laser"] = 1,
+}
 ATTACHMENT.Laser = {
     BeamMaterial = Material("mw19_laserbeam.vmt"),
     DotMaterial = Material("sprites/light_glow02_add.vmt"),
