@@ -132,4 +132,62 @@ sound.Add({
 		}
 })
 
+-- shotguns --
+
+sound.Add({
+	name = "weap_shotgun_fire_plr_atmo_ext2",
+	channel = CHAN_ATMO,
+    level = 140,
+    pitch = {80,110},
+    volume =      0.5,
+	sound = {
+		"iw9/wpn/atmo/ext/weap_shotgun_fire_plr_atmo_ext2_01.wav",
+		"iw9/wpn/atmo/ext/weap_shotgun_fire_plr_atmo_ext2_02.wav",
+		"iw9/wpn/atmo/ext/weap_shotgun_fire_plr_atmo_ext2_03.wav",
+		"iw9/wpn/atmo/ext/weap_shotgun_fire_plr_atmo_ext2_04.wav",
+		"iw9/wpn/atmo/ext/weap_shotgun_fire_plr_atmo_ext2_05.wav",
+		"iw9/wpn/atmo/ext/weap_shotgun_fire_plr_atmo_ext2_06.wav",
+		}
+})
+
+sound.Add({
+	name = "weap_shotgun_fire_plr_atmo_ext2",
+	channel = CHAN_ATMO,
+    level = 140,
+    pitch = {80,110},
+    volume =      0.5,
+	sound = {
+		"iw9/wpn/atmo/ext/weap_shotgun_fire_plr_atmo_ext2_01.wav",
+		"iw9/wpn/atmo/ext/weap_shotgun_fire_plr_atmo_ext2_02.wav",
+		"iw9/wpn/atmo/ext/weap_shotgun_fire_plr_atmo_ext2_03.wav",
+		"iw9/wpn/atmo/ext/weap_shotgun_fire_plr_atmo_ext2_04.wav",
+		"iw9/wpn/atmo/ext/weap_shotgun_fire_plr_atmo_ext2_05.wav",
+		"iw9/wpn/atmo/ext/weap_shotgun_fire_plr_atmo_ext2_06.wav",
+		}
+})
+
+sound.Add({
+	name = "weap_shotgun_fire_plr_atmo_int2",
+	channel = CHAN_ATMO,
+    level = 140,
+    pitch = {80,110},
+    volume =      0.5,
+	sound = {
+		"iw9/wpn/atmo/int/weap_shotgun_fire_plr_atmo_int2_01.wav",
+		"iw9/wpn/atmo/int/weap_shotgun_fire_plr_atmo_int2_02.wav",
+		"iw9/wpn/atmo/int/weap_shotgun_fire_plr_atmo_int2_03.wav",
+		"iw9/wpn/atmo/int/weap_shotgun_fire_plr_atmo_int2_04.wav",
+		"iw9/wpn/atmo/int/weap_shotgun_fire_plr_atmo_int2_05.wav",
+		"iw9/wpn/atmo/int/weap_shotgun_fire_plr_atmo_int2_06.wav",
+		"iw9/wpn/atmo/int/weap_shotgun_fire_plr_atmo_int2_07.wav",
+		"iw9/wpn/atmo/int/weap_shotgun_fire_plr_atmo_int2_08.wav",
+		}
+})
+
+
+
+
+
+
+
 
