@@ -1,6 +1,6 @@
 AddCSLuaFile()
 
-EFFECT.Model = Model("models/viper/mw/shared/casing/12g.mdl")
+EFFECT.Model = Model("models/fritz/effects/shared/shell_spent_12g_LOD0.mdl")
 EFFECT.Scale = 1
 EFFECT.Force = 90
 EFFECT.Offset = Vector()

@@ -1,0 +1,21 @@
+ATTACHMENT.Base = "att_sight_1x"
+ATTACHMENT.Name = "Cronen Mini Pro"
+ATTACHMENT.Model = Model("models/zeron/att_vm_minireddot04_pstl_v0.mdl")
+ATTACHMENT.Icon = Material("pwci/mw/attachments/icons/shared/icon_attachment_minireddot04_v0.vmt")
+ATTACHMENT.BonemergeToCategory = {"Barrels"}
+ATTACHMENT.Reticle = {
+    Material = Material("zeron/reticles/reticle_dot_blue.vmt"),
+    Size = 235,
+    Color = Color(255, 255, 255, 155),
+    Attachment = "reticle"
+}
+ATTACHMENT.Bodygroups ={
+    ["tag_sight"] = 1,
+    ["tag_rail"] = 1,
+    ["sight"] = 1
+}
+ATTACHMENT.AttachmentBodygroups ={
+    ["tag_sight"] = 1,
+    ["tag_rail"] = 1,
+    ["sight"] = 1
+}

@@ -1,0 +1,18 @@
+ATTACHMENT.Base = "att_laser"
+ATTACHMENT.Name = "FJX Diod-70"
+ATTACHMENT.Model = Model("models/zeron/att_vm_laser_pstl07_v0.mdl")
+ATTACHMENT.Icon = Material("pwci/mw/attachments/icons/shared/icon_attachment_laser_pstl07_v0.vmt")
+ATTACHMENT.BonemergeToCategory = {"Barrels"}
+ATTACHMENT.AttachmentBodygroups ={
+    ["laser"] = 1,
+}
+ATTACHMENT.Laser = {
+    BeamMaterial = Material("mw19_laserbeam.vmt"),
+    DotMaterial = Material("sprites/light_glow02_add.vmt"),
+    BeamSize = 15,
+    BeamWidth = 1,
+    DotSize = 5,
+    Color = Color(255, 0, 0, 255),
+    Attachment = "laser"
+}
+local BaseClass = GetAttachmentBaseClass(ATTACHMENT.Base)
