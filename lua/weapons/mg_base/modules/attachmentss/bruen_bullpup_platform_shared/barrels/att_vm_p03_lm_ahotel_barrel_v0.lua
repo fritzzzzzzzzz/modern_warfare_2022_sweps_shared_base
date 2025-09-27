@@ -1,12 +1,1 @@
-ATTACHMENT.Base = "att_barrel"
-ATTACHMENT.Name = "Bruen Factory Heavy Barrel"
-ATTACHMENT.Model = Model("models/zeron/att_vm_p03_lm_ahotel_barrel_v0.mdl")
-ATTACHMENT.Icon = Material("zeron/weapons/auggers/icons/icon_attachment_p03_lm_ahotel_barrel_v0.vmt")
-local BaseClass = GetAttachmentBaseClass(ATTACHMENT.Base)
-function ATTACHMENT:Stats(weapon)
-    BaseClass.Stats(self, weapon)
-    weapon.Animations.Ads_In.Fps = weapon.Animations.Ads_In.Fps * 0.95
-    weapon.Animations.Ads_Out.Fps = weapon.Animations.Ads_Out.Fps * 0.95
-    weapon.Bullet.EffectiveRange = weapon.Bullet.EffectiveRange * 1.1
-    weapon.Bullet.DropOffStartRange = weapon.Bullet.DropOffStartRange * 1.1
-end
+ATTACHMENT.Base = "att_barrel" ATTACHMENT.Name = "Bruen Factory Heavy Barrel" ATTACHMENT.Model = Model("models/zeron/att_vm_p03_lm_ahotel_barrel_v0.mdl") ATTACHMENT.Icon = Material("zeron/weapons/auggers/icons/icon_attachment_p03_lm_ahotel_barrel_v0.vmt") local BaseClass = GetAttachmentBaseClass(ATTACHMENT.Base) function ATTACHMENT:Stats(weapon) BaseClass.Stats(self, weapon) weapon.Animations.Ads_In.Fps = weapon.Animations.Ads_In.Fps * 0.95 weapon.Animations.Ads_Out.Fps = weapon.Animations.Ads_Out.Fps * 0.95 weapon.Bullet.EffectiveRange = weapon.Bullet.EffectiveRange * 1.1 weapon.Bullet.DropOffStartRange = weapon.Bullet.DropOffStartRange * 1.1 end 

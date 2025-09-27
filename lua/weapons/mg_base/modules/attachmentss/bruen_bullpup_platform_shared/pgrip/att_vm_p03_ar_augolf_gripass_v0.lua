@@ -1,16 +1,1 @@
-ATTACHMENT.Base = "att_pistolgrip"
-ATTACHMENT.Name = "STIP-40 Grip"
-ATTACHMENT.Model = Model("models/zeron/att_vm_p03_ar_augolf_gripass_v0.mdl")
-ATTACHMENT.Icon = Material("zeron/weapons/auggers/icons/icon_attachment_p03_ar_augolf_gripass_v0.vmt")
-local BaseClass = GetAttachmentBaseClass(ATTACHMENT.Base)
-function ATTACHMENT:Stats(weapon)
-    BaseClass.Stats(self, weapon)
-    weapon.Animations.Ads_In.Fps = weapon.Animations.Ads_In.Fps * 1.15
-    weapon.Animations.Ads_Out.Fps = weapon.Animations.Ads_Out.Fps * 1.15
-    weapon.Animations.Draw.Fps = weapon.Animations.Draw.Fps * 1.15
-    weapon.Animations.Holster.Fps = weapon.Animations.Holster.Fps * 1.15
-    weapon.Recoil.Vertical[1] = weapon.Recoil.Vertical[1] * 1.2
-    weapon.Recoil.Vertical[2] = weapon.Recoil.Vertical[2] * 1.2
-    weapon.Recoil.Horizontal[1] = weapon.Recoil.Horizontal[1] * 1.2
-    weapon.Recoil.Horizontal[2] = weapon.Recoil.Horizontal[2] * 1.2
-end
+ATTACHMENT.Base = "att_pistolgrip" ATTACHMENT.Name = "STIP-40 Grip" ATTACHMENT.Model = Model("models/zeron/att_vm_p03_ar_augolf_gripass_v0.mdl") ATTACHMENT.Icon = Material("zeron/weapons/auggers/icons/icon_attachment_p03_ar_augolf_gripass_v0.vmt") local BaseClass = GetAttachmentBaseClass(ATTACHMENT.Base) function ATTACHMENT:Stats(weapon) BaseClass.Stats(self, weapon) weapon.Animations.Ads_In.Fps = weapon.Animations.Ads_In.Fps * 1.15 weapon.Animations.Ads_Out.Fps = weapon.Animations.Ads_Out.Fps * 1.15 weapon.Animations.Draw.Fps = weapon.Animations.Draw.Fps * 1.15 weapon.Animations.Holster.Fps = weapon.Animations.Holster.Fps * 1.15 weapon.Recoil.Vertical[1] = weapon.Recoil.Vertical[1] * 1.2 weapon.Recoil.Vertical[2] = weapon.Recoil.Vertical[2] * 1.2 weapon.Recoil.Horizontal[1] = weapon.Recoil.Horizontal[1] * 1.2 weapon.Recoil.Horizontal[2] = weapon.Recoil.Horizontal[2] * 1.2 end 

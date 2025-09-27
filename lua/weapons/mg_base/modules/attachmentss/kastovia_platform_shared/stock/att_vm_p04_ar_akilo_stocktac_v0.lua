@@ -1,12 +1,1 @@
-ATTACHMENT.Base = "att_stock"
-ATTACHMENT.Model = Model("models/zeron/att_vm_p04_ar_akilo_stocktac_v0.mdl")
-ATTACHMENT.Name = "FT Tac-Elite Stock"
-ATTACHMENT.Icon = Material("zeron/weapons/vepr/icons/icon_attachment_p04_ar_akilo_stocktac_v0.vmt")
-
-local BaseClass = GetAttachmentBaseClass(ATTACHMENT.Base)
-function ATTACHMENT:Stats(weapon)
-    BaseClass.Stats(self, weapon)
-    weapon.Animations.Ads_In.Fps = weapon.Animations.Ads_In.Fps * 0.9
-    weapon.Animations.Ads_Out.Fps = weapon.Animations.Ads_Out.Fps * 0.9
-    weapon.Recoil.Shake = weapon.Recoil.Shake * 0.8
-end
+ATTACHMENT.Base = "att_stock" ATTACHMENT.Model = Model("models/zeron/att_vm_p04_ar_akilo_stocktac_v0.mdl") ATTACHMENT.Name = "FT Tac-Elite Stock" ATTACHMENT.Icon = Material("zeron/weapons/vepr/icons/icon_attachment_p04_ar_akilo_stocktac_v0.vmt") local BaseClass = GetAttachmentBaseClass(ATTACHMENT.Base) function ATTACHMENT:Stats(weapon) BaseClass.Stats(self, weapon) weapon.Animations.Ads_In.Fps = weapon.Animations.Ads_In.Fps * 0.9 weapon.Animations.Ads_Out.Fps = weapon.Animations.Ads_Out.Fps * 0.9 weapon.Recoil.Shake = weapon.Recoil.Shake * 0.8 end 

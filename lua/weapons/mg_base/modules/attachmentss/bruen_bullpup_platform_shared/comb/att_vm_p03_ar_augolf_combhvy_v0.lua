@@ -1,10 +1,1 @@
-ATTACHMENT.Base = "att_vm_p03_ar_augolf_comb_none"
-ATTACHMENT.Name = "Bruen TS-30 Comb"
-ATTACHMENT.Model = Model("models/zeron/att_vm_p03_ar_augolf_combhvy_v0.mdl")
-ATTACHMENT.Icon = Material("zeron/weapons/auggers/icons/icon_attachment_p03_ar_augolf_combhvy_v0.vmt")
-local BaseClass = GetAttachmentBaseClass(ATTACHMENT.Base)
-function ATTACHMENT:Stats(weapon)
-    BaseClass.Stats(self, weapon)
-    weapon.Recoil.Vertical[1] = weapon.Recoil.Vertical[1] * 0.9
-    weapon.Recoil.Vertical[2] = weapon.Recoil.Vertical[2] * 0.9
-end
+ATTACHMENT.Base = "att_vm_p03_ar_augolf_comb_none" ATTACHMENT.Name = "Bruen TS-30 Comb" ATTACHMENT.Model = Model("models/zeron/att_vm_p03_ar_augolf_combhvy_v0.mdl") ATTACHMENT.Icon = Material("zeron/weapons/auggers/icons/icon_attachment_p03_ar_augolf_combhvy_v0.vmt") local BaseClass = GetAttachmentBaseClass(ATTACHMENT.Base) function ATTACHMENT:Stats(weapon) BaseClass.Stats(self, weapon) weapon.Recoil.Vertical[1] = weapon.Recoil.Vertical[1] * 0.9 weapon.Recoil.Vertical[2] = weapon.Recoil.Vertical[2] * 0.9 end 

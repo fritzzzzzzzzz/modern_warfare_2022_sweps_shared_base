@@ -1,7 +1,1 @@
-AddCSLuaFile()
-
-if (math.random(1, 100) == 1) then
-   list.Set( "ContentCategoryIcons", "Modern Warfare II", "vgui/images/ermm.png" )
-   else
-   list.Set( "ContentCategoryIcons", "Modern Warfare II", "vgui/images/mwii_icon.png" )
-end
+AddCSLuaFile() if (math.random(1, 100) == 1) then list.Set( "ContentCategoryIcons", "Modern Warfare II", "vgui/images/ermm.png" ) else list.Set( "ContentCategoryIcons", "Modern Warfare II", "vgui/images/mwii_icon.png" ) end 
