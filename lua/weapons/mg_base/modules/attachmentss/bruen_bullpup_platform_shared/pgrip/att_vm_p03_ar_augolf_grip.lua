@@ -1,1 +1,2 @@
-ATTACHMENT.Base = "att_pistolgrip" ATTACHMENT.Name = "AugGrip" 
+ATTACHMENT.Base = "att_pistolgrip"
+ATTACHMENT.Name = "AugGrip"

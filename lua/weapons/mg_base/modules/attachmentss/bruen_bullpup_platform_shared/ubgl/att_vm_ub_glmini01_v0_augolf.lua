@@ -1,1 +1,30 @@
-ATTACHMENT.Base = "att_underbarrel_gl" ATTACHMENT.Name = "TL40 Fire Drake" ATTACHMENT.Model = Model("models/zeron/att_vm_ub_glmini01_v0_augolf.mdl") ATTACHMENT.Icon = Material("zeron/weapons/auggers/icons/icon_attachment_ub_glmini01_v0.vmt") ATTACHMENT.Bodygroups = { ["tag_grip_hide"] = 1 } local BaseClass = GetAttachmentBaseClass(ATTACHMENT.Base) function ATTACHMENT:Stats(weapon) BaseClass.Stats(self, weapon) weapon.Secondary.TranslateAnimations = { ["Holster"] = "Underbarrel_Holster", ["Draw"] = "Underbarrel_Draw", ["Melee"] = "Underbarrel_Melee", ["Melee_Hit"] = "Underbarrel_Melee_Hit", ["Inspect"] = "Underbarrel_Inspect", ["Inspect_Empty"] = "Underbarrel_Inspect", ["Underbarrel_Fire"] = "Underbarrel_Fire" } end function ATTACHMENT:PostProcess(weapon) BaseClass.PostProcess(self, weapon) weapon:SetGripPoseParameter("grip_ubgl_offset") end 
+ATTACHMENT.Base = "att_underbarrel_gl"
+ATTACHMENT.Name = "TL40 Fire Drake"
+ATTACHMENT.Model = Model("models/zeron/att_vm_ub_glmini01_v0_augolf.mdl")
+ATTACHMENT.Icon = Material("zeron/weapons/auggers/icons/icon_attachment_ub_glmini01_v0.vmt")
+	
+ATTACHMENT.Bodygroups = {
+    ["tag_grip_hide"] = 1
+}
+local BaseClass = GetAttachmentBaseClass(ATTACHMENT.Base)
+
+function ATTACHMENT:Stats(weapon)
+    BaseClass.Stats(self, weapon)
+    --this tells code to translate normal anims (left) to the underbarrel ones (right)
+    --if no animation is found then the underbarrel is toggled
+    weapon.Secondary.TranslateAnimations = {
+        ["Holster"] = "Underbarrel_Holster",
+        ["Draw"] = "Underbarrel_Draw",
+        ["Melee"] = "Underbarrel_Melee",
+        ["Melee_Hit"] = "Underbarrel_Melee_Hit",
+        ["Inspect"] = "Underbarrel_Inspect",
+        ["Inspect_Empty"] = "Underbarrel_Inspect",
+        ["Underbarrel_Fire"] = "Underbarrel_Fire"
+    }
+end
+
+function ATTACHMENT:PostProcess(weapon)
+    BaseClass.PostProcess(self, weapon)
+    weapon:SetGripPoseParameter("grip_ubgl_offset")
+end
+

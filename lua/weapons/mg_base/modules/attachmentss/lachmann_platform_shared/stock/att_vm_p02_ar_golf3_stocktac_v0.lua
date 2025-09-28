@@ -1,1 +1,19 @@
-ATTACHMENT.Base = "att_stock" ATTACHMENT.Name = "FT Mobile Stock" ATTACHMENT.Model = Model("models/zeron/att_vm_p02_ar_golf3_stocktac_v0.mdl") ATTACHMENT.Icon = Material("zeron/weapons/lachmann/icons/icon_attachment_p02_ar_golf3_stocktac_v0.vmt") ATTACHMENT.Bodygroups ={ ["tag_stock_hide"] = 1 } local BaseClass = GetAttachmentBaseClass(ATTACHMENT.Base) function ATTACHMENT:Stats(weapon) BaseClass.Stats(self, weapon) weapon.Animations.Ads_In.Fps = weapon.Animations.Ads_In.Fps * 1.06 weapon.Animations.Ads_Out.Fps = weapon.Animations.Ads_Out.Fps * 1.06 weapon.Animations.Draw.Fps = weapon.Animations.Draw.Fps * 1.06 weapon.Animations.Holster.Fps = weapon.Animations.Holster.Fps * 1.06 weapon.Recoil.Vertical[1] = weapon.Recoil.Vertical[1] * 1.02 weapon.Recoil.Vertical[2] = weapon.Recoil.Vertical[2] * 1.02 weapon.Recoil.Horizontal[1] = weapon.Recoil.Horizontal[1] * 1.02 weapon.Recoil.Horizontal[2] = weapon.Recoil.Horizontal[2] * 1.02 end 
+ATTACHMENT.Base = "att_stock"
+ATTACHMENT.Name = "FT Mobile Stock"
+ATTACHMENT.Model = Model("models/zeron/att_vm_p02_ar_golf3_stocktac_v0.mdl")
+ATTACHMENT.Icon = Material("zeron/weapons/lachmann/icons/icon_attachment_p02_ar_golf3_stocktac_v0.vmt")
+ATTACHMENT.Bodygroups ={
+    ["tag_stock_hide"] = 1
+}
+local BaseClass = GetAttachmentBaseClass(ATTACHMENT.Base)
+function ATTACHMENT:Stats(weapon)
+    BaseClass.Stats(self, weapon)
+    weapon.Animations.Ads_In.Fps = weapon.Animations.Ads_In.Fps * 1.06
+    weapon.Animations.Ads_Out.Fps = weapon.Animations.Ads_Out.Fps * 1.06
+    weapon.Animations.Draw.Fps = weapon.Animations.Draw.Fps * 1.06
+    weapon.Animations.Holster.Fps = weapon.Animations.Holster.Fps * 1.06
+    weapon.Recoil.Vertical[1] = weapon.Recoil.Vertical[1] * 1.02
+    weapon.Recoil.Vertical[2] = weapon.Recoil.Vertical[2] * 1.02
+    weapon.Recoil.Horizontal[1] = weapon.Recoil.Horizontal[1] * 1.02
+    weapon.Recoil.Horizontal[2] = weapon.Recoil.Horizontal[2] * 1.02
+end

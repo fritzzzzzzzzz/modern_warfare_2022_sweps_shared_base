@@ -1,1 +1,3 @@
-ATTACHMENT.Base = "att_stock" ATTACHMENT.Model = Model("models/zeron/att_vm_p02_lm_kilo21_stock_v0.mdl") ATTACHMENT.Icon = Material("zeron/weapons/lachmann/icons/icon_attachment_p02_lm_kilo21_stock_v0.vmt") 
+ATTACHMENT.Base = "att_stock"
+ATTACHMENT.Model = Model("models/zeron/att_vm_p02_lm_kilo21_stock_v0.mdl")
+ATTACHMENT.Icon = Material("zeron/weapons/lachmann/icons/icon_attachment_p02_lm_kilo21_stock_v0.vmt")

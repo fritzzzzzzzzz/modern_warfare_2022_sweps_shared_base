@@ -1,1 +1,22 @@
-ATTACHMENT.Base = "att_muzzle" ATTACHMENT.Name = "Comp 905F Pistol" ATTACHMENT.Model = Model("models/zeron/att_vm_comp_pi04_v0.mdl") ATTACHMENT.Icon = Material("pwci/mw/attachments/icons/shared/icon_attachment_comp_pi04_v0.vmt") ATTACHMENT.BonemergeToCategory = {"Barrels"} ATTACHMENT.AttachmentBodygroups = { ["tag_tip"] = 1, ["muzzle"] = 1, ["tip"] = 1 } ATTACHMENT.Bodygroups = { ["tag_tip"] = 1, ["muzzle"] = 1, ["tip"] = 1 } local BaseClass = GetAttachmentBaseClass(ATTACHMENT.Base) function ATTACHMENT:Stats(weapon) BaseClass.Stats(self, weapon) weapon.Cone.Ads = weapon.Cone.Ads * 0.9 weapon.Cone.Hip = weapon.Cone.Hip * 0.9 end 
+ATTACHMENT.Base = "att_muzzle"
+ATTACHMENT.Name = "Comp 905F Pistol"
+ATTACHMENT.Model = Model("models/zeron/att_vm_comp_pi04_v0.mdl")
+ATTACHMENT.Icon = Material("pwci/mw/attachments/icons/shared/icon_attachment_comp_pi04_v0.vmt")
+ATTACHMENT.BonemergeToCategory = {"Barrels"}
+ATTACHMENT.AttachmentBodygroups = {
+    ["tag_tip"] = 1,
+    ["muzzle"] = 1,
+    ["tip"] = 1
+}
+ATTACHMENT.Bodygroups = {
+    ["tag_tip"] = 1,
+    ["muzzle"] = 1,
+    ["tip"] = 1
+}
+local BaseClass = GetAttachmentBaseClass(ATTACHMENT.Base)
+function ATTACHMENT:Stats(weapon)
+    BaseClass.Stats(self, weapon)
+
+    weapon.Cone.Ads = weapon.Cone.Ads * 0.9
+    weapon.Cone.Hip = weapon.Cone.Hip * 0.9
+end 
