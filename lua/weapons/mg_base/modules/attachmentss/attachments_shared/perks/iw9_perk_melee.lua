@@ -1,4 +1,4 @@
-ATTACHMENT.Base = "att_perk_soh"
+ATTACHMENT.Base = "att_perk"
 ATTACHMENT.Icon = Material("easy/mw/attachments/icons/shared/icon_perk_strong_arm_patch.vmt")
 ATTACHMENT.Name = "Strong Arm"
 
