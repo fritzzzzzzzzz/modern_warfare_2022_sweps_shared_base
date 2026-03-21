@@ -136,26 +136,10 @@ sound.Add({
 
 sound.Add({
 	name = "weap_shotgun_fire_plr_atmo_ext2",
-	channel = CHAN_ATMO,
+    channel =        CHAN_ATMO,
+    volume =      0.5,
     level = 140,
     pitch = {80,110},
-    volume =      0.5,
-	sound = {
-		"iw9/wpn/atmo/ext/weap_shotgun_fire_plr_atmo_ext2_01.ogg",
-		"iw9/wpn/atmo/ext/weap_shotgun_fire_plr_atmo_ext2_02.ogg",
-		"iw9/wpn/atmo/ext/weap_shotgun_fire_plr_atmo_ext2_03.ogg",
-		"iw9/wpn/atmo/ext/weap_shotgun_fire_plr_atmo_ext2_04.ogg",
-		"iw9/wpn/atmo/ext/weap_shotgun_fire_plr_atmo_ext2_05.ogg",
-		"iw9/wpn/atmo/ext/weap_shotgun_fire_plr_atmo_ext2_06.ogg",
-		}
-})
-
-sound.Add({
-	name = "weap_shotgun_fire_plr_atmo_ext2",
-	channel = CHAN_ATMO,
-    level = 140,
-    pitch = {80,110},
-    volume =      0.5,
 	sound = {
 		"iw9/wpn/atmo/ext/weap_shotgun_fire_plr_atmo_ext2_01.ogg",
 		"iw9/wpn/atmo/ext/weap_shotgun_fire_plr_atmo_ext2_02.ogg",
