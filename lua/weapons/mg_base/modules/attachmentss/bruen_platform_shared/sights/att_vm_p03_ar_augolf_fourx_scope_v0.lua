@@ -30,17 +30,4 @@ ATTACHMENT.Reticle = {
     Offset = Vector(-0.0, 0.0, 0)
 }
 
-hook.Add("PreRegisterSWEP", "lucacanis", function(SWEP, ClassName)
-	if SWEP.Customization and type(SWEP.Customization) == "table" then
-		for _, tbl in ipairs(SWEP.Customization) do
-			for _, att in ipairs(tbl) do
-				if att == "att_vm_scope_mike14" then
-					table.insert(tbl, "att_vm_p03_ar_augolf_fourx_scope_v0")
-					break
-				end
-			end
-		end
-	end
-end)
-
 

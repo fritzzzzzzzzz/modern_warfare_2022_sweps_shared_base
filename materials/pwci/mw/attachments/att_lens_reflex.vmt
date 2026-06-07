@@ -1,8 +1,8 @@
 "VertexLitGeneric"
 {
-    "$basetexture" "pwci\mw\weapons\shared\xmaterial_79f04e97cb7644ec_rgb"
-    "$bumpmap" "pwci\mw\weapons\shared\xmaterial_79f04e97cb7644ec_n"
-    "$phongexponenttexture" "pwci\mw\weapons\shared\xmaterial_79f04e97cb7644ec_e"
+    "$basetexture" "pwci\mw\attachments\att_lens_reflex_rgb"
+    "$bumpmap" "pwci\mw\attachments\att_lens_reflex_n"
+    "$phongexponenttexture" "pwci\mw\attachments\att_lens_reflex_e"
 
     /////////////////
     "$color2" "[.6 .6 .6]"                                     //do not touch this
@@ -35,43 +35,9 @@
         "MwEnvMapTint"
         {
             "min" "0"
-            "max" "7"
+            "max" "1"
             "envmap" "pwci\mw\weapons\shared\specularity_100"
             "color" "[0.098 0.098 0.098]"
         }
     }
 }
-
-//"VertexLitGeneric"
-//{
-//  "$basetexture" "pwci\mw\attachments\att_lens_holo_rgb"
-//    "$bumpmap" "pwci\mw\attachments\att_lens_holo_n"
-//    "$phongexponenttexture" "pwci\mw\attachments\att_lens_holo_e"
-//	  $additive "1"
-//    $color2 "[.6 .6 .6]"                                     //do not touch this
-//    $phongtint "[0.6 0.7 1]"
-	
-//	$phong	"1"
-//	$phongboost	"0.1"
-//	$phongfresnelranges	"[.78 .9 1]"
-
-//	$envmap	"env_cubemap"
-//	Proxies
-//	{
-//        "MwEnvMapTint"
-//        {
-//            "min" "0"
-//            "max" "0.04"
-//            "envmap" "pwci\mw\attachments\specularity_100"
-//            "color" "[0.6 0.7 1]"
-//        }
-//    }
-//	$normalmapalphaenvmapmask	"1"
-//	$envmapfresnel	"1"
-
-//	$rimlight	"0"
-//	$rimmask	"1"
-//	$rimlightboost	"1"
-//	$rimlightexponent	"2"
-//}
-

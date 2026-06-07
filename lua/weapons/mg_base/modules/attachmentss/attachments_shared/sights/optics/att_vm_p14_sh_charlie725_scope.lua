@@ -50,5 +50,4 @@ function ATTACHMENT:Stats(weapon)
     weapon.Animations.Reload_Empty = weapon.Animations.reload_empty_scope
 	weapon.ViewModelOffsets.Aim.Angles = weapon.ViewModelOffsets.Aim.Angles + Angle(0, 0, 0)
 	weapon.ViewModelOffsets.Aim.Pos = weapon.ViewModelOffsets.Aim.Pos + Vector(0, 0, -0.04)
-
 end

@@ -35,7 +35,7 @@
         "MwEnvMapTint"
         {
             "min" "0"
-            "max" "7"
+            "max" "5"
             "envmap" "pwci\mw\weapons\shared\specularity_100"
             "color" "[0.098 0.098 0.098]"
         }

@@ -28,8 +28,8 @@ ATTACHMENT.Reticle = {
     Attachment = "reticle"
 }
 ATTACHMENT.ReticleHybrid = {
-    Material = Material("viper/shared/reticles/aimpoint_reticle.vmt"),
-    Size = 150,
+    Material = Material("zeron/reticles/reticle_xhair_red.vmt"),
+    Size = 375,
     Color = Color(255, 255, 255, 255),
     Attachment = "reticle2"
 }
