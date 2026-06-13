@@ -1,0 +1,64 @@
+"VertexlitGeneric"
+{
+    "$basetexture" "pwci\mw\attachments\att_lens_onex_opaque_rgb"
+	"$bumpmap"				"viper/MW/attachments/holo_east_lens_n" 
+    "$phongexponenttexture" "pwci\mw\attachments\att_lens_onex_opaque_e"
+	
+	$phong	"1"
+	$phongboost	"0.5"
+	$phongexponent	"30"
+	$phongfresnelranges	"[1 0.5 0]"
+
+	$envmap	"env_cubemap"
+	$envmaptint	"[.5 .5 .5]"
+	$normalmapalphaenvmapmask	"1"
+	$envmapfresnel	"5"
+
+	$rimlight	"1"
+	$rimmask	"1"
+	$rimlightboost	"1"
+	$rimlightexponent	"100"
+}
+
+//"VertexLitGeneric"
+//{
+//    "$basetexture" "pwci\mw\attachments\att_lens_onex_opaque_rgb"
+//    "$bumpmap" "pwci\mw\attachments\att_lens_onex_opaque_n"
+//    "$phongexponenttexture" "pwci\mw\attachments\att_lens_onex_opaque_e"
+
+    /////////////////
+//    "$color2" "[0 0 0]"                                     //do not touch this
+//    "$blendtintbybasealpha" "1"                             //do not touch this
+    /////////////////
+
+//    "$phong" "1"
+//    "$phongboost" "1"
+//    "$phongalbedotint" "1"
+//    "$phongalbedoboost" "15"                                //toy around with this
+//    "$phongfresnelranges" "[1 0.1 0]"
+
+    //rimlight doesn't properly show in hlmv, make sure you're changing these values in game
+//    "$rimlight" "1"
+//    "$rimlightexponent" "100"
+//    "$rimmask" "1"
+//    "$rimlightboost" "1"
+       
+    /////////////////
+//    "$normalmapalphaenvmapmask" "1"                         //do not touch this
+    /////////////////
+
+//    "$envmap" "env_cubemap"
+//    "$envmaptint" "[0.098 0.098 0.098]"            
+
+    //remove this if not using MWB
+//    "Proxies"
+//    {
+//        "MwEnvMapTint"
+//        {
+//            "min" "0"
+//            "max" "0.7"
+//            "envmap" "env_cubemap"
+//            "color" "[0.098 0.098 0.098]"
+//        }
+//    }
+//}
